@@ -37,9 +37,9 @@ SELECT
     COUNT_IF(suburb IS NULL) AS suburb_nulls,
     COUNT_IF(store_manager IS NULL) AS store_manager_nulls,
     COUNT_IF(opened_date IS NULL) AS opened_date_nulls
-FROM stores;
+FROM stores
 select*
-from stores;
+from stores
 
 SELECT 
     COUNT_IF(first_name IS NULL) AS first_name_nulls,
@@ -50,9 +50,9 @@ SELECT
     COUNT_IF(loyalty_tier IS NULL) AS loyalty_tier_nulls,
     COUNT_IF(home_suburb IS NULL) AS home_suburb_nulls,
     COUNT_IF(signup_date IS NULL) AS signup_date_nulls
-FROM customers;
+FROM customers
 select*
-from customers;
+from customers
 
 
 ## Finding inconsistencies
@@ -61,7 +61,7 @@ SELECT *
 FROM customers
 WHERE first_name != TRIM(first_name)
    OR last_name != TRIM(last_name)
-   OR home_suburb != TRIM(home_suburb);
+   OR home_suburb != TRIM(home_suburb)
 
 SELECT *
 FROM stores
@@ -69,12 +69,12 @@ WHERE store_manager != TRIM(store_manager)
    OR province != TRIM(province)
    OR city != TRIM(city)
    OR suburb != TRIM(suburb)
-   OR store_name != TRIM(store_name);
+   OR store_name != TRIM(store_name)
 
 
 SELECT DISTINCT gender
 FROM customers
-ORDER BY gender;
+ORDER BY gender
 
 SELECT
     t.customer_id
@@ -82,7 +82,7 @@ FROM transactions t
 LEFT JOIN customers c
     ON t.customer_id = c.customer_id
 WHERE c.customer_id IS NULL
-  AND t.customer_id IS NOT NULL;
+  AND t.customer_id IS NOT NULL
 
 # The fix-or-flag framework
 for every table with data issues, a CTE was used to clean and store the cleaned data which was queried everytime the information was needed from that table.
