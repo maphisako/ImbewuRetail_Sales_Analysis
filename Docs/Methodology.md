@@ -1,10 +1,10 @@
 # METHODOLOGY
 How the project was build from messy datasets to dashboard
 
-1. ## Datasets and Business requirements
+## 1.Datasets and Business requirements
 The datasets were given out by Witle Academy as part of data analytics bootcamp student assessment. The head of sales of Imbewu retail was concerned about the latest revenue report in Western Cape,the numbers were down compared to last year but store visit report shows that the business still get customers.
 
-2. ## Data modeling-Galaxy Schema
+## 2.Data modeling-Galaxy Schema
 The data contained 4 dimension tables and 2 fact tables and i chose galaxy schema because:
 Integrated insights: It allows you to analyze different business domains simultaneously. For instance, you can easily write queries to see how a promotions made impacts revenue
 
@@ -16,7 +16,7 @@ The model has:
 - 2 fact tables(fact_transactions and fact_transaction_items)
 - 4 dimension tables(dim_promotions,dim_customers,dim_stores and dim_products)
 
-3. ## Data Validation
+## 3.Data Validation
 Before visualization in Power BI, I ran:
 
 -Row-count checks on every table
@@ -29,7 +29,7 @@ Before visualization in Power BI, I ran:
 
 -checked for whitespaces and inconsistencies
 
-4. ## Power BI modeling
+## 4.Power BI modeling
 in Power BI desktop:
 
 -Loaded all 6 tables
@@ -38,7 +38,7 @@ in Power BI desktop:
 
 -Build dax measures
 
-5. ## Dashboard design
+## 5.Dashboard design
 4 Dashboard, 3 designed for 18 months that are segmented in 6 months and 1 for the overview of the whole 18 months
 
 Design principle followed:
@@ -50,7 +50,7 @@ Design principle followed:
 
 - Desktop friendly layout
 
-6. ## What can be done differently
+## 6.What can be done differently
 -Have a date table to make analysis more effecient, the data didnot have a date table, i had to extract the date from the transaction table
 
 -Have quantity under products to be able to track the inventory volume at hand as well as the cost to have that inventory
