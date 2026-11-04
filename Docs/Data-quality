@@ -1,7 +1,9 @@
 # DATA QUALITY NOTES
+
 The data is synthetic but mimic the real world data quality issues as it was provided for learning purposes to be able to handle them before any analysis.
 
 ## Issues at glance
+
 | Category              | Issues                                                                               |
 | ------------          | ------------------------------------------------------------------------------------ |
 | Consistency           | Unnecessary leading and trailing spaces in text columns.                             |
