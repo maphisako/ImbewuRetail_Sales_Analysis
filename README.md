@@ -43,3 +43,5 @@ The analysis covers 18 months of data, presented through four visualisations. Th
   
 - About me
 
+- Contributors
+
