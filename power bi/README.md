@@ -54,9 +54,7 @@ Provides an overview of the full 18-month period, allowing users to examine the 
 
 ### Dashboard Screenshots
 
-Screenshots of the Power BI dashboards are available in the [view dashboard image](ImbewuRetail_Sales_Analysis
-/Images/
-) folder.
+Screenshots of the Power BI dashboards are available in the [view dashboard image](Images.png) folder.
 
 The screenshots include six-month breakdowns and the full 18-month overview.
 
