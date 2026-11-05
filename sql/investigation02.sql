@@ -1,0 +1,34 @@
+
+-- UNIT COST AND REVENUE ANALYSIS
+-- Purpose: Calculate total product costs and revenue
+-- generated across stores, provinces and product
+-- categories over different reporting periods.
+
+     -- WITH updated_transactions_table AS (
+     --  SELECT 
+     --       COALESCE(CAST(customer_id AS STRING), 'Investigate') AS customer_id,
+     --     transaction_id, store_id, transaction_date, payment_method
+     --  FROM transactions
+     -- ),
+     -- updated_store_table as(
+     --   SELECT
+     --    store_id,format,opened_date,
+     --   COALESCE(INITCAP(Trim(store_manager)),'Not_allocated') AS store_manager,
+     --  INITCAP(trim(province)) AS province,INITCAP(trim(city)) AS city,
+     --  INITCAP(trim(suburb)) AS suburb,INITCAP(trim(store_name)) AS store_name
+     --  from stores)
+     -- SELECT sum(p.unit_cost*ti.quantity) as total_unit_cost,us.store_name,us.province,p.category,SUM(ti.unit_price_at_sale*ti.quantity) as Revenue,
+     --      CASE WHEN ut.transaction_date BETWEEN '2024-01-01 00:00' AND '2024-06-30 23:59' then 'JAN-JUN 2024'
+     --      WHEN ut.transaction_date BETWEEN '2024-07-01 00:00' AND '2024-12-31 23:59' then 'JUL-DEC 2024'
+     --      WHEN ut.transaction_date BETWEEN '2025-01-01 00:00' AND '2025-06-30 23:59' then 'JAN-JUN 2025'
+     --     ELSE 'Other'
+     --    END AS Date_bracket
+     --   FROM updated_store_table us
+     --  join updated_transactions_table ut
+     --  on us.store_id=ut.store_id
+     --  join transaction_items ti
+     --  on ut.transaction_id=ti.transaction_id
+     --  join products p
+     --  on p.product_id=ti.product_id
+     --  group by 2,3,4,6
+     --  order by total_unit_cost;
