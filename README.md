@@ -16,3 +16,5 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 
 ![PowerBI_dashboard](imbewuDashboard18months.png)
 
+[Project Overview](#project-overview)
+
