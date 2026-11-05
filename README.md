@@ -6,3 +6,5 @@ Retail analysis for a fictional South African retail company to track revenue, p
 
 ![PowerBI_dashboard](imbewuDashboardjan-jun2025.png)
 
+![PowerBI_dashboard](imbewuDashboard18months.png)
+
