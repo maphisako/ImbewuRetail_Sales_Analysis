@@ -1,5 +1,7 @@
 # Imbewu Retail-Sales analysis
-Retail analysis for a fictional South African retail company to track revenue, product performance, and store performanace across 4 provinces.
+
+End-to-end retail sales analysis project developed as part of the Data Analytics Bootcamp student assessment. Formulated business hypotheses to investigate decline in revenue yet customers were still coming through the door, used Databricks SQL to clean and transform messy datasets using CTEs and conduct SQL-based investigations, and independently used Power Query to perform data cleaning in Power BI. Developed DAX measures and interactive dashboards to explore revenue trends, store performance, and customer insights across an 18-month period.
+
 
 
 ### Dashboard Overview
