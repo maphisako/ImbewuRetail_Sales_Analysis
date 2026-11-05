@@ -17,4 +17,29 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 ![PowerBI_dashboard](imbewuDashboard18months.png)
 
 [Table of Contents](#imbewu-retail-sales-analysis)
+- The problem
+  
+- What I built
+  
+- Tools & skills used
+  
+- The dataset
+  
+- Data quality issues
+  
+- How to run this project
+  
+- Project structure
+  
+- Data model
+  
+- Dashboards
+  
+- Key findings
+  
+- What I learned
+  
+- References
+  
+- About me
 
