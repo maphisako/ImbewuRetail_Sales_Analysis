@@ -1,0 +1,38 @@
+
+
+-- CUSTOMER LOYALTY, SUBURB AND REVENUE ANALYSIS
+-- Purpose: Analyse customer numbers and revenue by loyalty tier, home suburb and reporting period.
+
+       -- with updated_customer_table as(
+       -- SELECT 
+       -- COALESCE(birth_year, '0000') AS birth_year,
+       -- COALESCE(gender, 'Prefer_not_to_say') AS gender,
+       -- customer_id,first_name,last_name,loyalty_tier,home_suburb,signup_date
+       -- from customers)
+       -- SELECT *
+       --  from updated_customer_table;
+       --  With updated_transactions_table AS (
+       --  SELECT 
+       --  COALESCE(CAST(customer_id AS STRING), 'Investigate') AS customer_id,
+       -- transaction_id, store_id, transaction_date, payment_method
+       -- FROM transactions),
+       -- updated_customer_table AS (
+       --  SELECT 
+       -- COALESCE(birth_year, '0000') AS birth_year,
+       -- COALESCE(gender, 'Prefer_not_to_say') AS gender,
+       --  customer_id,first_name,last_name,loyalty_tier,home_suburb,signup_date
+       -- from customers)
+       -- SELECT COUNT(DISTINCT uc.customer_id) AS total_customers,uc.loyalty_tier,uc.home_suburb,sum(ti.unit_price_at_sale*ti.quantity)
+       --  as revenue,
+       --  CASE WHEN ut.transaction_date BETWEEN '2024-01-01 00:00' AND '2024-06-30 23:59' THEN 'JAN-JUN 2024'
+       --  WHEN ut.transaction_date BETWEEN '2024-07-01 00:00' AND '2024-12-31 23:59' THEN 'JUL-DEC 2024'
+       --   WHEN ut.transaction_date BETWEEN '2025-01-01 00:00' AND '2025-06-30 23:59' THEN 'JAN-JUN 2025'
+       --    ELSE 'Other'
+       --  END AS Date_bracket
+       -- From transaction_items ti
+       -- join updated_transactions_table ut
+       -- on ti.transaction_id=ut.transaction_id
+       -- join updated_customer_table uc
+       -- on uc.customer_id=ut.customer_id
+       -- group by 2,3,5
+       -- order by total_customers desc;
