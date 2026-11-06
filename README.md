@@ -346,6 +346,35 @@ broad discounting and instead use targeted promotions, loyalty campaigns, and cu
 initiatives that increase transaction volume without unnecessarily reducing margin.
 
 ## 📚What I learned
+- Galaxy schema allows in depth modeling and analyzing of different business areas.
+
+- The importance of data modeling and ERD diagram before any analysis
+
+- Documentation of data quality decisions
+
+- The importance of understanding a business requirement before doing analysis
+
+- The importance of having few hyphothesis and building queries around instead of having many saves time and give an analyst a clear direction.
+
+## 📖References
+- Microsoft Learn: DAX function reference
+  
+- Microsoft Learn: Power BI guidance and best practices
+  
+- Databricks: SQL
+
+The Imbewu Retail dataset is fictional. All customer, Transactions, and store data was synthetically generated for this project. No real personal data is included.
+
+## About Me
+I'm an aspiring data analyst building portfolio projects in SQL, Power BI, and Excel.
+
+💼 LinkedIn: Kgopotso Maphisa
+
+📧 Email: maphisako@gmail.com
+
+If you found this project useful, give it a ⭐ on GitHub
+
+
 
 
 
