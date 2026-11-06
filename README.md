@@ -291,6 +291,64 @@ Built for Head of sales and COO. Top-line KPIs, monthly trend, and breakdowns by
 
 ## Key finding and Recommendations
 
+### Executive overview. 
+The dashboard shows that the business remained profitable, but revenue and customer activity weakened in the first half of 2025. The main opportunity is to reactivate inactive customers, especially within the Bronze loyalty tier, while improving lower-performing stores and protecting
+the current profit margin.
+
+### Key Findings
+- Revenue declined in the first half of 2025
+Revenue decreased from R388.79K in January to June 2024 to R366.28K in January to June 2025. This
+represents a decline of approximately R22.51K, or 5.8%, which means the business generated less
+income than in the comparable six-month period.
+
+- Profit decreased, but the business remained profitable
+Profit fell from R133.58K in January to June 2024 to R125.54K in January to June 2025, a decline of
+approximately 6%. However, the profit margin remained stable, moving only slightly from 34.36% to
+34.28%. This suggests that the immediate challenge is sales growth rather than a major loss of profitability.
+
+- The high number of inactive customers is a major concern
+For January to June 2025, the dashboard shows 475 active customers and approximately 2,500 non-active
+customers. The loyalty table also shows 1,853 inactive Bronze customers compared with only 238 active
+Bronze customers. This creates a significant opportunity to win back customers who are already known to
+the business.
+- Bronze is the largest loyalty tier, but customer engagement is weak
+Bronze includes 2,091 of the 3,000 customers, which is almost 70% of the customer base. Despite its size,
+only 238 Bronze customers were active in January to June 2025. The largest customer group is therefore
+not contributing as strongly as it could.
+
+- Revenue is concentrated among the larger stores
+In the 18-month dashboard, Imbewu Mega Parow generated R196,508.56, Imbewu Mega Bellville
+generated R194,646.42, Imbewu Mega Paarl Central generated R190,651.65, and Imbewu Mega
+Tygervalley generated R189,582.79. These stores substantially outperformed several Express locations,
+showing that the business relies heavily on its larger stores.
+
+### Recommendations
+
+- Launch a targeted customer reactivation campaign focus on inactive customers, particularly the 1,853 inactive Bronze customers shown for January to June
+2025. Use personalised loyalty offers, limited-period promotions, and a next-purchase incentive to
+encourage customers to return.
+
+- Strengthen the Bronze loyalty offering because Bronze represents almost 70% of the customer base, improving engagement in this tier can
+materially increase sales. Introduce simple incentives that reward repeat purchases and give Bronze
+customers a clear path towards Silver or Gold status.
+
+- Investigate the reason for the revenue decline, analyse the approximately 5.8% year-on-year revenue decline by store, product category, month,
+customer activity, and purchase frequency. This will help management identify whether the decrease was
+driven by fewer active customers, weaker store performance, lower buying frequency, or a combination of
+factors.
+
+- Use high-performing stores as internal benchmarks Compare lower-revenue locations with Imbewu Mega Parow, Bellville, Paarl Central, and Tygervalley.
+Review differences in product mix, customer activity, transaction patterns, and local promotions, then apply
+suitable practices at weaker stores.
+
+- Grow sales while protecting the profit margin, The margin stayed close to 34% in both January to June periods. Management should therefore avoid
+broad discounting and instead use targeted promotions, loyalty campaigns, and customer reactivation
+initiatives that increase transaction volume without unnecessarily reducing margin.
+
+## What I learned
+
+
+
 
 
 
