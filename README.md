@@ -35,7 +35,7 @@ The analysis covers 18 months of data, presented through four visualisations. Th
   
 - Dashboards
   
-- Key findings
+- Key findings and recommendations
   
 - What I learned
   
@@ -274,6 +274,25 @@ You can run complex, enterprise-level queries
 Full details in docs/data-methodology.md folder.
 
 ## Dashboards
+Built for Head of sales and COO. Top-line KPIs, monthly trend, and breakdowns by customer count and category.
+
+![PowerBI_dashboard](imbewuDashboard18months.png)
+
+### Designed to answer
+- Customer count per store
+
+- which store is generating more revenue
+
+- Active customer count per loyalty tier
+
+- Most expensive vs least expensive category revenue performance
+
+- was the discount allowed effective and necessary
+
+## Key finding and Recommendations
+
+
+
 
 
 
