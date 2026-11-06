@@ -16,7 +16,7 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 
 ![powerBI_dashboard](imbewuDashboard18months.png)
 
-[Table of Contents](#imbewu-retail-sales-analysis)
+📌[Table of Contents](#imbewu-retail-sales-analysis)
 - The problem
   
 - What I built
@@ -45,11 +45,11 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 
 - Contributors
 
- ## The problem
+ ## 🎯The problem
  Imbewu Retail is a fictional South African retail business operating across Gauteng, Western Cape, KwaZulu-Natal and Eastern Cape. The head of sales was worried about the latest revenue report and something's off in Western Cape.Numbers were down compared to last year, but the store visit reports say foot traffic is 
 roughly flat and this didn't add up. The head of sales didn't want PowerPoint slides, instead she wanted one Power BI dashboard she could actually use, plus a short written summary she could forward to the COO. 
 
-## What I build
+## 🛠️What I build
 1. Designed a galaxy schema with two facts table and four dimensions, optimised for analytical queries and Power BI performance.
 
 2. Performed data quality checks to identify missing values, inconsistent formatting, whitespace issues and data type inconsistencies. Applied cleaning and transformation techniques using Databricks SQL CTEs and Power Query to improve data consistency and reliability for analysis.
@@ -58,7 +58,7 @@ roughly flat and this didn't add up. The head of sales didn't want PowerPoint sl
 
 4. Built a Power BI dashboard — segmented into 6 months periods and overview of the whole 18 months period for Western Cape — driven by a number of DAX measures.
 
-## Tools and skills used
+## 💻Tools and skills used
 
 ### Tools
 - Power BI Desktop
@@ -84,7 +84,7 @@ Dashboard design — KPI hierarchy, audience-led layout, colour discipline
 
 Technical writing and documentation
 
-## The dataset
+## 📦The dataset
 The full dataset lives in data folder as six CSV files. It's fully synthetic — no real customer or sales data is included — but it's been generated to look and behave like a real retail dataset and for learning purposes.
 
 3.1 Customers Table
@@ -172,7 +172,7 @@ Key dataset characteristics:
 
 You can analyse the CSVs directly in Excel, Python, or any BI tool. The SQL scripts in the repository contain the data-cleaning, transformation and queries developed in Databricks SQL. The original datasets were also independently imported into Power BI, where Power Query was used to perform similar cleaning and transformation processes, followed by data modelling, DAX calculations and dashboard development.
 
-## Data quality issues
+## ⚠️Data quality issues
 
 This dataset is intentionally messy in the same ways real retail data is messy. Part of this project's value is showing how to find, document, and handle these issues before they reach a dashboard.
 
@@ -194,7 +194,7 @@ Every issue is documented in docs/data-quality.md folder with:
   
 - The downstream impact
 
-## How to run this project
+## ⚙️How to run this project
 
 ### Quick exploration (CSVs only)
 If you just want to look at the data, the CSV files in data folder, open directly in Excel, Power BI, Python, or any SQL tool that supports CSV import. No database setup required.
@@ -219,7 +219,7 @@ If you just want to look at the data, the CSV files in data folder, open directl
 
 **Note on the `.pbix` file:** The Power BI file is a binary file and cannot be viewed directly on GitHub. Download it and open it using Power BI Desktop to explore the interactive report. The dashboard screenshots in this README provide a visual preview of the report.
 
-## Project Structure
+## 📁Project Structure
 ```
 Imbewu-retail-sales-analysis/
 ├── README.md                             ← You are here
@@ -263,7 +263,7 @@ Imbewu-retail-sales-analysis/
     └── methodology.md                    ← How I built the project
 ```
 
-## Data Model
+## 🗂️Data Model
 ![ERD_diagram](ERD%20diagram%20imbewu.png)
 
 ### Why galaxy schema?
@@ -273,7 +273,7 @@ You can run complex, enterprise-level queries
 
 Full details in docs/data-methodology.md folder.
 
-## Dashboards
+## 📊Dashboards
 Built for Head of sales and COO. Top-line KPIs, monthly trend, and breakdowns by customer count and category.
 
 ![PowerBI_dashboard](imbewuDashboard18months.png)
@@ -289,7 +289,7 @@ Built for Head of sales and COO. Top-line KPIs, monthly trend, and breakdowns by
 
 - was the discount allowed effective and necessary
 
-## Key finding and Recommendations
+## 🔍Key finding and Recommendations
 
 ### Executive overview. 
 The dashboard shows that the business remained profitable, but revenue and customer activity weakened in the first half of 2025. The main opportunity is to reactivate inactive customers, especially within the Bronze loyalty tier, while improving lower-performing stores and protecting
@@ -345,7 +345,8 @@ suitable practices at weaker stores.
 broad discounting and instead use targeted promotions, loyalty campaigns, and customer reactivation
 initiatives that increase transaction volume without unnecessarily reducing margin.
 
-## What I learned
+## 📚What I learned
+
 
 
 
