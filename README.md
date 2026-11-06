@@ -374,6 +374,7 @@ I'm an aspiring data analyst building portfolio projects in SQL, Power BI, and E
 
 ## 👤Contributors
 Project collaboration and contributions to the analysis and development process.
+
 💼 LinkedIn: Mathabo Mokoena
 
 📧 Email: mathabo.mokoena@kpmg.co.za
