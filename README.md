@@ -220,7 +220,7 @@ If you just want to look at the data, the CSV files in data folder, open directl
 **Note on the `.pbix` file:** The Power BI file is a binary file and cannot be viewed directly on GitHub. Download it and open it using Power BI Desktop to explore the interactive report. The dashboard screenshots in this README provide a visual preview of the report.
 
 ## Project Structure
-
+```
 Imbewu-retail-sales-analysis/
 ├── README.md                             ← You are here
 ├── LICENSE
@@ -261,9 +261,21 @@ Imbewu-retail-sales-analysis/
     ├── data-dictionary.md                ← Tables and columns documented
     ├── data-quality.md                   ← Data quality issues and decisions
     └── methodology.md                    ← How I built the project
+```
 
-# Data Model
+## Data Model
 ![ERD_diagram](ERD%20diagram%20imbewu.png)
+
+### Why galaxy schema?
+
+Fast analytical queries (small number of joins)
+Native fit for Power BI's relationship engine
+Easy for non-technical stakeholders to read
+Grain of fact_sales: one row per product line item per sale. This grain supports basket analysis, product mix, and per-line discount tracking.
+
+Full details in docs/data-dictionary.md folder.
+
+
 
 
 
