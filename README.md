@@ -14,7 +14,7 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 
 ![PowerBI_dashboard](imbewuDashboardjan-jun2025.png)
 
-![PowerBI_dashboard](imbewuDashboard18months.png)
+![powerBI_dashboard]
 
 [Table of Contents](#imbewu-retail-sales-analysis)
 - The problem
@@ -268,12 +268,12 @@ Imbewu-retail-sales-analysis/
 
 ### Why galaxy schema?
 
-Fast analytical queries (small number of joins)
-Native fit for Power BI's relationship engine
-Easy for non-technical stakeholders to read
-Grain of fact_sales: one row per product line item per sale. This grain supports basket analysis, product mix, and per-line discount tracking.
+To model and analyze different business areas
+You can run complex, enterprise-level queries 
 
-Full details in docs/data-dictionary.md folder.
+Full details in docs/data-methodology.md folder.
+
+## Dashboards
 
 
 
