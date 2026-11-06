@@ -365,12 +365,18 @@ initiatives that increase transaction volume without unnecessarily reducing marg
 
 The Imbewu Retail dataset is fictional. All customer, Transactions, and store data was synthetically generated for this project. No real personal data is included.
 
-## About Me
+## 👤About Me
 I'm an aspiring data analyst building portfolio projects in SQL, Power BI, and Excel.
 
 💼 LinkedIn: Kgopotso Maphisa
 
 📧 Email: maphisako@gmail.com
+
+## 👤Contributors
+Project collaboration and contributions to the analysis and development process.
+💼 LinkedIn: Mathabo Mokoena
+
+📧 Email: mathabo.mokoena@kpmg.co.za
 
 If you found this project useful, give it a ⭐ on GitHub
 
