@@ -14,7 +14,7 @@ The analysis covers 18 months of data, presented through four visualisations. Th
 
 ![PowerBI_dashboard](imbewuDashboardjan-jun2025.png)
 
-![powerBI_dashboard]
+![powerBI_dashboard](imbewuDashboard18months.png)
 
 [Table of Contents](#imbewu-retail-sales-analysis)
 - The problem
