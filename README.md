@@ -220,33 +220,34 @@ If you just want to look at the data, the CSV files in data folder, open directl
 **Note on the `.pbix` file:** The Power BI file is a binary file and cannot be viewed directly on GitHub. Download it and open it using Power BI Desktop to explore the interactive report. The dashboard screenshots in this README provide a visual preview of the report.
 
 ## Project Structure
-nova-retail-sales-analysis/
-├── README.md                          ← You are here
+
+Imbewu-retail-sales-analysis/
+├── README.md                             ← You are here
 ├── LICENSE
 ├── .gitignore
 │
 ├── data/
-│   ├── dim_promotions.csv              ← Promotion dimension (4 rows)
-│   ├── dim_products.csv                ← Product dimension (48 rows)
-│   ├── dim_stores.csv                  ← Store dimension (45 rows)
-│   ├── dim_customers.csv               ← Customer dimension (3000 rows
-│   ├── fact_transactions.csv           ← Transaction fact table (9164 rows)
-│   ├── fact_transaction_items.csv      ← Transaction_item fact (48641)
-│   └── README.md                       ← Notes on the dataset
+│   ├── dim_promotions.csv                ← Promotion dimension (4 rows)
+│   ├── dim_products.csv                  ← Product dimension (48 rows)
+│   ├── dim_stores.csv                    ← Store dimension (45 rows)
+│   ├── dim_customers.csv                 ← Customer dimension (3000 rows
+│   ├── fact_transactions.csv             ← Transaction fact table (9164 rows)
+│   ├── fact_transaction_items.csv        ← Transaction_item fact (48641)
+│   └── README.md                         ← Notes on the dataset
 │
 ├── sql/
-│   ├── 01_investigation.sql            ← Investigation 1: Average Transaction Value
-│   ├── 02_investigation.sql            ← Investigation 2: Unit Cost And Revenue Analysis
-│   ├── 03_investigation.sql            ← Investigation 3: Store Performance And Customer Analysis
-│   ├── 04_investigation.sql            ← Investigation 4: Store Revenue Performance Analysis
-│   ├── 05_investigation.sql            ← Investigation 5: Average Unit Selling Price Analysis
-│   └── 06_investigation.sql            ← Investigation 6: Customer Loyalty, Suburb And Revenue Analysis
+│   ├── 01_investigation.sql              ← Investigation 1: Average Transaction Value
+│   ├── 02_investigation.sql              ← Investigation 2: Unit Cost And Revenue Analysis
+│   ├── 03_investigation.sql              ← Investigation 3: Store Performance And Customer Analysis
+│   ├── 04_investigation.sql              ← Investigation 4: Store Revenue Performance Analysis
+│   ├── 05_investigation.sql              ← Investigation 5: Average Unit Selling Price Analysis
+│   └── 06_investigation.sql              ← Investigation 6: Customer Loyalty, Suburb And Revenue Analysis
 │ 
 │
 ├── powerbi/
-│   ├── Imbewu_retail_dashboard.pbix     ← Power BI report file
-│   ├── dax_measures.md                  ← DAX measures documented
-│   └── README.md                        ← How to open the .pbix file
+│   ├── Imbewu_retail_dashboard.pbix      ← Power BI report file
+│   ├── dax_measures.md                   ← DAX measures documented
+│   └── README.md                         ← How to open the .pbix file
 │
 ├── images/
 │   ├── ERD_diagram.png                   ← Galaxy schema diagram
@@ -256,13 +257,13 @@ nova-retail-sales-analysis/
 │   └── ImbewuDashboardjan-jun2025.png    ← Western Cape Jan-Jun 2025 dashboard screenshot
 │
 └── docs/
-    ├── business-questions.md          ← Business questions
-    ├── data-dictionary.md              ← Tables and columns documented
-    ├── data-quality.md                 ← Data quality issues and decisions
-    └── methodology.md                  ← How I built the project
+    ├── business-questions.md             ← Business questions
+    ├── data-dictionary.md                ← Tables and columns documented
+    ├── data-quality.md                   ← Data quality issues and decisions
+    └── methodology.md                    ← How I built the project
 
 # Data Model
-![ERD_diagram]
+![ERD_diagram](Images/ERD_diagram_imbewu.png)
 
 
 
