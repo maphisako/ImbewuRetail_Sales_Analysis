@@ -263,7 +263,7 @@ Imbewu-retail-sales-analysis/
     └── methodology.md                    ← How I built the project
 
 # Data Model
-![ERD_diagram](ERD_diagram_imbewu.png)
+![ERD_diagram](ERD%20diagram%20imbewu.png)
 
 
 
