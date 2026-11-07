@@ -281,7 +281,7 @@ Built for Head of sales and COO. Top-line KPIs, monthly trend, and breakdowns by
 ### Designed to answer
 - Customer count per store
 
-- which store is generating more revenue
+- which store is generating more revenue and when such store started operating
 
 - Active customer count per loyalty tier
 
