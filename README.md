@@ -324,8 +324,7 @@ showing that the business relies heavily on its larger stores.
 
 ### Recommendations
 
-- Launch a targeted customer reactivation campaign focus on inactive customers, particularly the 1,853 inactive Bronze customers shown for January to June
-2025. Use personalised loyalty offers, limited-period promotions, and a next-purchase incentive to
+- Launch a targeted customer reactivation campaign focus on inactive customers, particularly the 1,853 inactive Bronze customers shown for January to June 2025. Use personalised loyalty offers, limited-period promotions, and a next-purchase incentive to
 encourage customers to return.
 
 - Strengthen the Bronze loyalty offering because Bronze represents almost 70% of the customer base, improving engagement in this tier can
