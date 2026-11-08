@@ -376,9 +376,14 @@ Project collaboration and contributions to the analysis and development process.
 
 💼 LinkedIn: Mathabo Mokoena
 
-📧 Email: mathabo.mokoena@kpmg.co.za
+📧 Email: mathabolmokoena@gmail.com
+
+Github: https://github.com/mathabomokoena
 
 If you found this project useful, give it a ⭐ on GitHub
+
+
+
 
 
 
